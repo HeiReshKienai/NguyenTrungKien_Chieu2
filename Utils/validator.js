@@ -26,8 +26,10 @@ module.exports = {
             )),
         body('username').isAlphanumeric().withMessage('username chi dc chu va so'),
         body('role').isIn(constants.USER_PERMISSION).withMessage('role khong hop le'),
-        body('fullname').isAlpha('vi-VN', { ignore: ' ' }).withMessage('fullname chi dc chua chu'),
-        body('imgURL').isURL().withMessage('imgURL phai la URL')
+        body('fullname')
+    .notEmpty().withMessage('fullname khong duoc de trong')
+    .isAlpha('vi-VN', { ignore: ' ' }).withMessage('fullname chi dc chua chu'),
+body('avatarUrl').isURL().withMessage('imgURL phai la URL')
     ],
     validator_middleware: function (req, res, next) {
         let errors = validationResult(req);

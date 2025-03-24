@@ -9,21 +9,22 @@ module.exports = {
     getUserById: async function(id){
         return await userSchema.findById(id).populate("role");
     },
-    createUser:async function(username,password,email,role){
-        let roleCheck = await roleSchema.findOne({roleName:role});
-        if(roleCheck){
+    createUser: async function(username, password, email, role, fullName = '', avatarUrl = '') {
+        let roleCheck = await roleSchema.findOne({ roleName: role });
+        if (roleCheck) {
             let newUser = new userSchema({
                 username: username,
                 password: password,
                 email: email,
                 role: roleCheck._id,
+                fullName: fullName, // Đảm bảo trường này được xử lý
+                avatarUrl: avatarUrl // Đảm bảo trường này được xử lý
             });
-            await newUser.save();    
-            return newUser;  
-        }else{    
+            await newUser.save();
+            return newUser;
+        } else {
             throw new Error("role khong ton tai");
         }
-
     },
     checkLogin: async function(username,password){
         if(username&&password){

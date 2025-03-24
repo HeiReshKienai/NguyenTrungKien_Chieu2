@@ -1,0 +1,265 @@
+[{
+  "_id": {
+    "$oid": "67ce89e319486deb010541dc"
+  },
+  "username": "testuser12",
+  "password": "password123",
+  "email": "testuser2@example.com",
+  "fullName": "Test User",
+  "avatarUrl": "http://example.com/avatar.jpg",
+  "status": true,
+  "role": {
+    "$oid": "67ce883bee5a532597682fc7"
+  },
+  "loginCount": 0,
+  "createdAt": {
+    "$date": "2025-03-10T06:42:43.533Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T07:21:49.471Z"
+  },
+  "__v": 0,
+  "isDeleted": false
+},
+{
+  "_id": {
+    "$oid": "67d7ea49dfbe68a2a3000190"
+  },
+  "username": "adminUser",
+  "password": "$2b$10$r9MtmkPkrBmsmqLtSELTcePtrN7ZbZbgLtsRG84sxKvdRlCDHjhsi",
+  "email": "admin@example.com",
+  "fullName": "",
+  "avatarUrl": "",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-17T09:24:25.533Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-17T09:24:25.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e0fdf4cdfefbeff93505ef"
+  },
+  "username": "user1",
+  "password": "$2b$10$WUcswl4u5xdtW7HRko8lZu/sogYNk4aTK50IAFzIuHj0HV17m2uPa",
+  "email": "user1@example.com",
+  "fullName": "",
+  "avatarUrl": "",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T06:38:44.028Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T06:38:44.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e0fe8aa9d3e0c3fc6c494c"
+  },
+  "username": "user5",
+  "password": "$2b$10$Okqfyyx484ujDA6/84lCiuO/TsUMzSSXZ7hck0fVYPDrmcgylavny",
+  "email": "user5@example.com",
+  "fullName": "",
+  "avatarUrl": "",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T06:41:14.393Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T06:41:14.393Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e100379bd0ea1599364b02"
+  },
+  "username": "user6",
+  "password": "$2b$10$7gDUVim36IjtH.JVOsf1x.K.1YTnp9ngpVc9eVQ6oK14ivwnEGyWq",
+  "email": "user6@example.com",
+  "fullName": "",
+  "avatarUrl": "",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T06:48:23.461Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T06:48:23.461Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e1006d7d48ab5339ccd9bc"
+  },
+  "username": "user7",
+  "password": "$2b$10$vZGVobcK7JfaBaoj17SbS.IrAezogWDrZ7CcmcbceXqPlILg17XGy",
+  "email": "user7@example.com",
+  "fullName": "",
+  "avatarUrl": "",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T06:49:17.857Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T06:49:17.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e103528533e5d77e16af2d"
+  },
+  "username": "user8",
+  "password": "$2b$10$6nFag.kBVCGiT7Sx3.23Le/8WZuv4zzOIKhAdrDYW/NOXtYOJjd7.",
+  "email": "user8@example.com",
+  "fullName": "",
+  "avatarUrl": "",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T07:01:38.025Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T07:01:38.025Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e103739dc5400462ce2b1d"
+  },
+  "username": "user9",
+  "password": "$2b$10$4DpyN9urpNh.zTzBk5x27ucQoG1/CMsxdh9VRJ0ZceVe9jgf/e6Vy",
+  "email": "user9@example.com",
+  "fullName": "",
+  "avatarUrl": "",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T07:02:11.346Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T07:02:11.346Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e103f7c4a588907d82a2a0"
+  },
+  "username": "user10",
+  "password": "$2b$10$5fLLhjip1mrydd6VySQpFOMoUBbQ2MrdBbj/edY78mulQdc8xCdci",
+  "email": "user10@example.com",
+  "fullName": "",
+  "avatarUrl": "",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T07:04:23.341Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T07:04:23.341Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e104649f5af7e3019ed0fb"
+  },
+  "username": "user11",
+  "password": "$2b$10$.oY3SbbI5IB2ro3g5/SzyecWlA2lbuOv4q5K4xtnlRJhEJBe66T..",
+  "email": "user11@example.com",
+  "fullName": "Nguyen Van A",
+  "avatarUrl": "https://example.com/avatar.jpg",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T07:06:12.186Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T07:06:12.186Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e1048f9f5af7e3019ed0fe"
+  },
+  "username": "mod",
+  "password": "$2b$10$tuJ7jYy8rv1elB6Ef7YD2u1PhGB6opSshKs.G2WDGLcfIkiogqKWy",
+  "email": "mod@example.com",
+  "fullName": "Nguyen Van A",
+  "avatarUrl": "https://example.com/avatar.jpg",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T07:06:55.069Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T07:06:55.069Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e104a49f5af7e3019ed104"
+  },
+  "username": "admin",
+  "password": "$2b$10$MxBK.e7CMFatcI2BhSEyH.G2BKf7PoO0p95QzI3zW0CHJYcrgLtI2",
+  "email": "admin1@example.com",
+  "fullName": "Nguyen Van A",
+  "avatarUrl": "https://example.com/avatar.jpg",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7ea4257eb88123f8be499"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T07:07:16.043Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T07:07:16.043Z"
+  },
+  "__v": 0
+}]

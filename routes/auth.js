@@ -10,7 +10,9 @@ router.post('/signup', async function(req, res, next) {
           body.username,
           body.password,
           body.email,
-         'user'
+         'user',
+         body.fullName , // Đảm bảo giá trị mặc định nếu không có
+         body.avatarUrl
         )
         res.status(200).send({
           success:true,

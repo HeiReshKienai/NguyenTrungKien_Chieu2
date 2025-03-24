@@ -42,16 +42,17 @@ router.post('/',
         body.username,
         body.password,
         body.email,
-        body.role
-      )
+        body.role,
+        body.fullName , // Đảm bảo giá trị mặc định nếu không có
+        body.avatarUrl // Đảm bảo giá trị mặc định nếu không có
+      );
       res.status(200).send({
         success: true,
         data: result
-      })
+      });
     } catch (error) {
       next(error);
     }
-
   });
 
 router.put('/:id', async function (req, res, next) {
